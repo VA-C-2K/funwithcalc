@@ -1,0 +1,116 @@
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.ageapp{
+    background-color:#0a6cf1;
+}
+.agecontainer{
+    width:40%;
+    min-width:450px;
+    position:relative;
+    padding: 50px 30px;
+    border:none;
+    outline:none;
+    height:89vh;
+    left:30%;
+}
+.agecontainer *{
+    font-family:"Poppins",sans-serif;
+    border:none;
+    outline:none;
+}
+.inputs-wrapper{
+    background-color:#080808;
+    padding: 30px 25px;
+    border-radius: 8px;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.3) ;
+}
+.inputs-wrapper input,button{
+    height:50px;
+    background-color: #fff;
+    color:#080808;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-bottom:20px;
+}
+.inputs-wrapper input{
+    width:65%;
+    padding:0 20px;
+    font-size:16px;
+}
+.inputs-wrapper button{
+    width:30%;
+    float:right;
+    font-size:15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.outputs-wrapper{
+    margin-top: 50px;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.outputs-wrapper div{
+    width:100px;
+    height: 100px;
+    background-color:#080808;
+    border-radius: 5px;
+    color:#fff;
+    display: grid;
+    place-items: center;
+    padding: 20px 0 ;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+}
+
+.ow span{
+    font-size:30px;
+    font-weight:500;
+}
+.ow p{
+    font-size:14px;
+    color:#707070;
+    font-weight:400;
+}
+
+
+.wish-for-birthday div{
+    margin-top: 50px;
+    width:100%;
+    height: 120px;
+    background-color:#080808;
+    border-radius: 5px;
+    color:#fff;
+    display: grid;
+    place-items: center;
+    padding: 20px 0 ;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+}
+
+.wish-for-birthday div span{
+    font-size:30px;
+    font-weight:500;
+}
+.wish-for-birthday div p{
+    font-size:16px;
+    color:#707070;
+    font-weight:500;
+}
+@media screen and (max-width: 768px) {
+    .agecontainer{
+        width:40%;
+        min-width:450px;
+        position:relative;
+        padding: 50px 30px;
+        border:none;
+        outline:none;
+        height:89vh;
+        left:3%;
+    }
+}

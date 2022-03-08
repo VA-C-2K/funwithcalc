@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.asptapp {
+    background-color: #895cf3;
+}
+.asptcontainer {
+    width: 450px;
+    height: 520px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 56%;
+    left: 50%;
+    border-radius: 15px;
+    box-shadow: 0 30px 45px rgba(18, 8, 39, 0.2);
+}
+.asptcontainer h2 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.8;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.asptcontainer h2 span {
+    color: #895cf3;
+}
+.cal{  
+    margin-left: 15px;
+    color:#170444;
+}
+.asptwrapper-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 70px 0;
+    gap: 15px;
+}
+.asptwrapper-1 input {
+    width: 100px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.asptwrapper-2 input{
+    padding: 13px 8px;
+    border: 1.3px solid #bbc0c5;
+    border-radius: 5px;
+    color: #170444;
+    outline: none;
+}
+.asptwrapper-3  input {
+    padding: 13px 8px;
+    border: 1.3px solid #bbc0c5;
+    border-radius: 5px;
+    color: #170444;
+    outline: none;
+}
+.asptwrapper-2 input:focus {
+    border: 2px solid #895cf3;
+} 
+.asptwrapper-3  input:focus {
+    border: 2px solid #895cf3;
+}
+.asptwrapper-2 label{
+    color: #170444;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+}
+.asptwrapper-3 
+label {
+    color: #170444;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+}
+.asptbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 37px;
+}
+.asptwrapper-2,
+.asptwrapper-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.asptwrapper-2 input,
+.asptwrapper-3 input {
+    width: 100%;
+    font-size: 18px;
+}
+.colon{
+    width: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+@media screen and (max-width: 668px) {
+    .asptcontainer{
+        width: 450px;
+        height: 510px;
+        background-color: #ffffff;
+        padding: 20px 25px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 56%;
+        left: 50%;
+        border-radius: 10px;
+        box-shadow: 0 30px 45px rgba(18, 8, 39, 0.2);
+    }
+}

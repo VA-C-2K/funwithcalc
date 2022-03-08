@@ -1,0 +1,13 @@
+.curcon{
+    margin-top: 200px;
+    color: #ddd;
+    height: 90%;
+    width: 100%;
+}
+.appcur{
+    background-color: #161616;
+}
+.curcon h1{
+    color: #eef;
+    text-align: center;
+}

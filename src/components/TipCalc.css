@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik",sans-serif;
+    letter-spacing: 0.4px;
+}
+.tipcontainer{
+    height:90vh;
+    background-color: #ffffff;
+    width: 450px;
+    padding:15px 30px;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 60%;
+    left: 50%;
+    box-shadow: 0 30px 50px rgba(0,0,0,0.1);
+}
+.tipwrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.lbl{
+    font-size: 16px;
+    color: #44475b;
+    font-weight: 400;
+    width: 30%;
+}
+.val{
+    color: #44475b;
+    font-weight: 500;
+    font-size: 18px;
+}
+.input-box{
+    margin-left: 0px;
+    display: inline-block;
+    background-color: #cdccfd;
+    color: #6f6df4;
+    padding: 5px;
+    width: 60%;
+    border-radius: 8px;
+}
+.input-box i{
+    float: right;
+    color: #3f3cff;
+    background-color: transparent;
+    padding: 10px;
+    width: 20%;
+    border: none;
+    outline: none;
+    text-align: center;
+    align-items:right;
+    border-radius: 8px;
+    cursor: pointer;
+    size:20px;
+}
+
+#bill{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 90px;
+    text-align: center;
+    color: #6f6df4;
+}
+hr{
+    border: none;
+    border-bottom: 2px solid #8a89f7;
+}
+input[type="range"]{
+    width: 100%;
+    cursor: pointer;
+}
+input[type="range"]:not(:last-child){
+    margin-bottom: 0px;
+}
+section:not(:last-child){
+    margin-bottom: 0px;
+}
+section:not(:first-child){
+    margin-top: 0px;
+}
+section:last-child{
+    background-color: #cdccfd;
+    padding: 1px 8px;
+    border-radius: 5px;
+}
+section:last-child .val,
+section:last-child .lbl{
+    color: #4c4af4;
+}

@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  .pxapp {
+    background: linear-gradient(
+        10deg,
+        #b7ff74,
+        #72db10
+    ) fixed;
+  }
+  .pxcontainer {
+    background-color: #ffffff;
+    width: 80vmin;
+    font-size: 16px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    padding: 1.5em 1.5em;
+    border-radius: 1em;
+    box-shadow: 0 0.7em 3em rgba(119, 255, 1, 0.836);
+  }
+  .pxcontainer h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.8em;
+    color: #92f139;
+    background: linear-gradient(to right,  #88fc1b 50%, #464646 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  label {
+    display: block;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #3c354e;
+  }
+  input {
+    width: 100%;
+    font-size: 1.25em;
+    padding: 0.6em 0.55em;
+    margin-top: 0.5em;
+    border-radius: 0.2em;
+    border: 1px solid #0a0125;
+  }
+  .pxcontainer .pxwrapper:nth-child(2) {
+    width: 50%;
+    margin: 3em auto 1.25em auto;
+  }
+  .pxcontainer .pxwrapper:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.6em;
+  }
+  @media screen and (max-width: 575px) {
+    .pxcontainer {
+      font-size: 14px;
+    }
+    .pxcontainer .pxwrapper:nth-child(2) {
+      width: 100%;
+      margin: 3.5em auto 0.6em auto;
+    }
+    .pxcontainer .pxwrapper:nth-child(3) {
+      flex-direction: column;
+    }
+  }
